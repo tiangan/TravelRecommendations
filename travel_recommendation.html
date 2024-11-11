@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="./travel_recommendation.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <img src="images/icon.png" alt="icon" width="32" height="32" />
+        </li>
+        <li>
+          <h1
+            style="
+              margin-left: 0px;
+              font-family: 'Courier New', monospace;
+              font-style: italic;
+            "
+          >
+            TravelIdeas
+          </h1>
+        </li>
+      </ul>
+      <ul>
+        <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+        <li><a href="./about_us.html" id="aboutUs">About Us </a></li>
+        <li><a href="./contactUs.html" id="contactUs">Contact Us </a></li>
+        <li>
+          <input
+            type="text"
+            id="keyword"
+            placeholder="Enter keywords for your ideal travel experience"
+          />
+        </li>
+        <li><button id="btnSearch">Search</button></li>
+        <li><button id="btnReset">Reset</button></li>
+      </ul>
+    </nav>
+    <div class="icon_container">
+      <div class="vertical_line"></div>
+      <div class="icon">
+        <img
+          src="images/icon_youtube.png"
+          alt="Youtube"
+          width="32"
+          height="32"
+        />
+        <br />
+        <img
+          src="images/icon_facebook.png"
+          alt="Facebook"
+          width="32"
+          height="32"
+        />
+        <br />
+        <img
+          src="images/icon_linkedin.png"
+          alt="Linkedin"
+          width="32"
+          height="32"
+        />
+        <br />
+        <img
+          src="images/icon_instagram.png"
+          alt="Instagram"
+          width="32"
+          height="32"
+        />
+        <br />
+      </div>
+    </div>
+    <div class="explorePage">
+      <div class="container">
+        <h1 id="webTitle">
+          EXPLORE <br />
+          YOUR NEXT <br />DESTINATION
+        </h1>
+        <p id="introduction">
+          Searching for new destinations? <br />
+          Planning your next adventure is now effortless. <br />
+          We’re here to guide you through exploring uncharted territories,
+          <br />
+          immersing in diverse cultures, <br />
+          and experiencing breathtaking landscapes.<br />
+        </p>
+        <button id="btnBook">Book Now</button>
+      </div>
+
+      <div id="resultField"></div>
+    </div>
+    <script src="./travel_recommendations.js"></script>
+  </body>
+</html>

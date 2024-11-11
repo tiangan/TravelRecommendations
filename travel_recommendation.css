@@ -1,0 +1,188 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+nav {
+    background-color: #14666c4c;
+    background-image: linear-gradient(white,rgb(6, 78, 64));
+    padding: 20px;
+    display: flex;
+    align-content: left;
+    justify-content: space-between;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+}
+
+nav ul li {
+    display:inline-block;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Basic CSS for the form elements */
+body{
+    font-family: Arial, sans-serif;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/backgroundImg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0px;
+}
+
+div {
+    margin-top: 10px;
+    margin-left:10px;
+    margin-bottom: 10px;
+}
+
+label {
+    /* display: inline-block; */
+    /* width: 100px; */
+}
+.content{
+    position:relative;
+    z-index: 2;
+
+}
+.icon_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+.vertical_line {
+    border-left: 2px solid rgb(97, 94, 94); /* Thickness and color of the line */
+    height: 250px;                /* Height of the line */
+    margin: 25px 25px;               /* Spacing around the line */
+    /* float: left; */
+}
+
+.container{
+    flex-direction: column;
+}
+.explorePage{
+    display: flex;
+}
+
+#webTitle {
+    margin-top: 150px;
+    margin-left: 80px;
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+}
+
+#introduction {
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#btnBook {
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#ourTeam{
+    display:flex;
+    color: rgb(191, 191, 191);
+    font-style:oblique;
+}
+#staffInfo{
+    margin: 80px 40px 20px 30px;
+}
+input[type="text"],
+input[type="number"],
+select {
+    width: 200px;
+    padding: 5px;
+}
+/* #keywords {
+    border-radius:10px;
+
+} */
+button {
+    padding: 10px 20px;
+    background-color: #48adb1;
+    color: white;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2cc0e1;
+}
+
+/* Basic CSS for the report section */
+h2 {
+    margin-top: 30px;
+}
+
+#btnRole {
+    background-color: navy;
+    padding: 7px 60px;
+    color: white;
+    border:none;
+    border-radius:5px;
+    cursor:default;
+}
+#timeBlock{
+    background-color: #48adb1;
+    width : 400px;
+    height:40px;
+    margin-bottom: 10px;
+    cursor:default;
+}
+ /* styling for contact us */
+ #contactForm {
+    text-align: left;
+    color: rgb(185, 185, 185);
+    max-width: 500px;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: 0;
+    padding: 50px;
+  }
+  #contactForm input,
+  #contactForm textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  #contactForm button:hover {
+    background-color: #0056b3;
+  }
+
+  /* stypling for result field on Home page */
+#resultField{
+    text-align: left;
+    color: rgb(185, 185, 185);
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 50px;
+    float: right;
+}
